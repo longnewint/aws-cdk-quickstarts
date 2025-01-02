@@ -1,3 +1,12 @@
 */cdk.out/
 */cdk.context.json
 */target/
+
+*/.classpath.txt
+*/target
+*/.classpath
+*/.project
+*/.idea
+*/.settings
+*/.vscode
+*/*.iml
