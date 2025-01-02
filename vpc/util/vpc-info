@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+aws ec2 describe-vpcs --filters Name=tag:aws:cloudformation:stack-name,Values=dev-vpc-stack > vpc-info.txt
+
+cat vpc-info.txt
