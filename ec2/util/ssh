@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/ec2-key.pem ec2-user@ec2-15-157-68-24.ca-central-1.compute.amazonaws.com
