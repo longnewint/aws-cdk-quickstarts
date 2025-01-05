@@ -1,0 +1,4 @@
+#!/bin/sh
+
+set -e
+cdk deploy --all --require-approval=never
