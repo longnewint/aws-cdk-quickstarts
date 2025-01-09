@@ -23,8 +23,8 @@ import software.constructs.Construct;
 public class LambdaConstruct extends Construct {
   static Map<String,String> RUNTIME_CONFIGURATION = Map.of(
     "JAVA_TOOL_OPTIONS", "-XX:+TieredCompilation -XX:TieredStopAtLevel=1");
-  static int TIMEOUT = 10;
-  static int ONE_CPU = 1706;
+  static int TIMEOUT = 5 * 60;
+  static int ONE_CPU = 1769;
   static int MEMORY = 1 * ONE_CPU;
 
   static Runtime RUNTIME = Runtime.JAVA_21;
