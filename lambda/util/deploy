@@ -1,4 +1,5 @@
 #!/bin/sh
 
-set -e
+set -euo pipefail
+
 cdk deploy --all --require-approval=never
