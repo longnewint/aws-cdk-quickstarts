@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -euo pipefail
 
 aws ec2 describe-vpcs --filters Name=tag:aws:cloudformation:stack-name,Values=dev-vpc-stack > vpc-info.txt
 
